@@ -35,4 +35,4 @@ drawnotifcolor("Delivery is done", 25)
 
 ## Video
 
-![alt text](https://youtu.be/71ZbYwnTUAI)
+![Click here to watch the script in action](https://youtu.be/71ZbYwnTUAI)
