@@ -34,6 +34,8 @@ function NewBlip()
                     local Palette = GetClosestObjectOfType(coords, 5.0, PaletteActuelle, false, false, false)
                     if DoesEntityExist(Palette) == 1 then
                         local salaire = math.random(Config.MinSalaire, Config.MaxSalaire)
+                        --local salaire = Config.MaxSalaire
+
                         --print ("salaire: "..salaire)
                         RemoveBlip(blip)
                         table.insert(salairetable, salaire)
