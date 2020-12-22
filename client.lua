@@ -22,7 +22,7 @@ function NewBlip()
 		Citizen.Wait(0)
         coords  = GetEntityCoords(ped)
         distance = GetDistanceBetweenCoords(coords, objectif.x, objectif.y, objectif.z, true)
-        print (distance)
+        --print (distance)
         if distance <= 15 then
             --print (distance)
             DrawMarker(0, objectif.x, objectif.y, objectif.z+1, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.75, 0.75, 0.75, 0, 255, 0, 100, false, true, 2, false, false, false, false)
